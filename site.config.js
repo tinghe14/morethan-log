@@ -13,7 +13,7 @@ const CONFIG = {
   projects: [
     {
       name: `morethan-log`,
-      href: "https://github.com/morethanmin/morethan-log",
+      href: "https://github.com/tinghe14/morethan-log",
     },
   ],
   // blog setting (required)
@@ -53,9 +53,9 @@ const CONFIG = {
     },
   },
   utterances: {
-    enable: true,
+    enable: false,
     config: {
-      repo: process.env.NEXT_PUBLIC_UTTERANCES_REPO || "",
+      repo: "tinghe14/morethan-log",
       "issue-term": "og:title",
       label: "💬 Utterances",
     },
